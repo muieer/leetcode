@@ -5,7 +5,7 @@ import io.github.muieer.java.ListNode;
 public class ReverseList {
 
     /*
-    * <a href="https://leetcode.cn/problems/reverse-linked-list/description/">92. 反转链表 II</a>
+    * <a href="https://leetcode.cn/problems/reverse-linked-list-ii/description/">92. 反转链表 II</a>
     * */
     public ListNode reverseBetween(ListNode head, int left, int right) {
 
