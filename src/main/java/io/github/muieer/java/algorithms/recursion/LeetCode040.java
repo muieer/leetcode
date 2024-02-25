@@ -19,7 +19,7 @@ public class LeetCode040 {
     /*
     * 空间复杂度 O(n)
     * */
-    public void dfs(int[] candidates, int target, List<List<Integer>> res, List<Integer> elements, int index) {
+    private void dfs(int[] candidates, int target, List<List<Integer>> res, List<Integer> elements, int index) {
 
         if (target < 0) {
             return;
